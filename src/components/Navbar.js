@@ -7,7 +7,12 @@ export default function Navbar() {
     <AppBar position="static">
       <Toolbar>
         <Box display="flex" justifyContent="center" width="100%">
-          <Typography variant="h6">Padaria Mendes</Typography>
+          <NavLink
+            to="/"
+            style={{ textDecoration: 'none', color: 'white', margin: '0 10px' }}
+          >
+            <Typography variant="h6">Padaria Mendes</Typography>
+          </NavLink>
         </Box>
         <Box display="flex" justifyContent="center" width="100%">
           <NavLink

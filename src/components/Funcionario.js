@@ -184,8 +184,6 @@ function FuncionariosList() {
             margin="normal"
             value={endereco}
             onChange={event => setEndereco(event.target.value)}
-            error={!endereco}
-            helperText={endereco && 'Campo obrigatório'}
           />
           <TextField
             label="Telefone"

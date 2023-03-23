@@ -47,9 +47,9 @@ export default function Home() {
         <ButtonGroup fullWidth>
           <Button variant="contained">Saúde financeira</Button>
         </ButtonGroup>
-        <Stack variant="subtitle1" textAlign="center" mt={2}>
+        <Stack alignItems="center" textAlign="center" mt={2}>
           Status da empresa:
-          <Chip label={status} color={color} sx={{ mb: 2 }} />
+          <Chip label={status} color={color} sx={{ mb: 2, width: '200px' }} />
         </Stack>
       </Paper>
       <Paper elevation={3} square>
